@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { HeaderComponent } from './header/header.component'
 
-import { MatToolbarModule } from '@angular/material';
+import { MatToolbarModule, MatFormFieldModule, MatInputModule, MatButtonModule } from '@angular/material';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './footer/footer.component';
@@ -43,7 +43,10 @@ const appRoutes: Routes = [
     ),
     BrowserModule,
     MatToolbarModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule
     
   ],
   providers: [],
