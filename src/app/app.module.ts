@@ -5,9 +5,7 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { HeaderComponent } from './header/header.component'
 
-import { MatToolbarModule, MatFormFieldModule, MatInputModule, MatButtonModule } from '@angular/material';
 
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component'
 
@@ -41,12 +39,7 @@ const appRoutes: Routes = [
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
     ),
-    BrowserModule,
-    MatToolbarModule,
-    FlexLayoutModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatButtonModule
+    BrowserModule
     
   ],
   providers: [],

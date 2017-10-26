@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  project_name: string = "Learner's Dome"
+
+  constructor() {  }
 
   ngOnInit() {
   }
