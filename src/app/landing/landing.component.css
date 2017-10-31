@@ -1,9 +1,8 @@
-.container {
-    display: flex;
-    flex-direction: row;
+#main {
+    padding: 0 80px 0 80px;
+    margin: 60px 0 70px 0;
 }
 
-.login-container {
-    display: flex;
-    flex-direction: column;   
+#courses-tab {
+    margin-top: 100px;
 }

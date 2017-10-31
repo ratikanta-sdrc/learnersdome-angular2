@@ -1,0 +1,21 @@
+footer {
+    background-color: lightgrey;
+}
+
+footer h3 {
+    font-family: "star jedi hollow";
+    color: grey;
+}
+
+footer h3 span {
+    font-family: "star jedi";
+}
+
+#foot {
+    padding: 0 70px 40px 70px;
+}
+
+#icons {
+    margin-top: 30px;
+    text-align: center;
+}
