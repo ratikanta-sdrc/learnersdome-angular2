@@ -1,13 +1,13 @@
-footer {
+#foot {
     background-color: lightgrey;
 }
 
-footer h3 {
+#foot h3 {
     font-family: "star jedi hollow";
     color: grey;
 }
 
-footer h3 span {
+#foot h3 span {
     font-family: "star jedi";
 }
 

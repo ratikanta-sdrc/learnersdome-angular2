@@ -2,7 +2,7 @@
     padding: 30px 60px 30px 60px;
 }
 
-#head ul li a{
+#head ul li a {
     font-weight: bold;
     font-family: arial;
     font-size: 14px;
@@ -14,7 +14,7 @@
     color: grey;
 }
 
-#head a span{
+#head a span {
     font-family: "star jedi";
 }
 

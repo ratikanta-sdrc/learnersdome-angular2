@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component'
 
 import { RouterModule, Routes } from '@angular/router'
 
+import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome'
+
 const appRoutes: Routes = [
   
   {
@@ -39,7 +41,8 @@ const appRoutes: Routes = [
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
     ),
-    BrowserModule
+    BrowserModule,
+    Angular2FontawesomeModule
     
   ],
   providers: [],
