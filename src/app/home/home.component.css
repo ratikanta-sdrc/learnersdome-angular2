@@ -1,0 +1,25 @@
+
+
+#main {
+    padding: 0 50px 0 50px;
+    margin: 180px 0 70px 0;
+}
+
+
+#main img {
+    width: 200px;
+}
+
+.thumbnail {
+    border: 2px solid rgb(92, 92, 92);
+}
+
+/*
+#main a img {
+    border: 30px solid white;
+    border-radius: 50px;
+}
+*/
+
+
+
