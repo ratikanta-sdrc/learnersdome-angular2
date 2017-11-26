@@ -11,7 +11,8 @@ import { HomeComponent } from './home/home.component'
 
 import { RouterModule, Routes } from '@angular/router'
 
-import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome'
+import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome';
+import { CourseComponent } from './course/course.component'
 
 const appRoutes: Routes = [
   
@@ -20,9 +21,13 @@ const appRoutes: Routes = [
     component: LandingComponent,
     data: { title: 'Learner\'s Dome' }
   },
-  { path: 'home',
+  { path: 'app-home',
     component: HomeComponent,
     data: { title: 'Home' }
+  },
+  { path: 'app-course',
+    component: CourseComponent,
+    data: { title: 'Course'}
   },
   { path: '**', component: LandingComponent }
 ];
@@ -34,7 +39,8 @@ const appRoutes: Routes = [
     LandingComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    CourseComponent
   ],
   imports: [
     RouterModule.forRoot(

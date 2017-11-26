@@ -1,5 +1,6 @@
 #foot {
-    background-color: lightgrey;
+    background-color: rgb(56, 56, 56);
+    padding: 0 50px 40px 50px;
 }
 
 #foot h3 {
@@ -11,11 +12,17 @@
     font-family: "star jedi";
 }
 
-#foot {
-    padding: 0 70px 40px 70px;
-}
-
 #icons {
     margin-top: 30px;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #foot {
+        padding: 0 10px 10px 10px;
+    }
+
+    #foot h3 {
+        font-size: 15px;
+    }
 }
