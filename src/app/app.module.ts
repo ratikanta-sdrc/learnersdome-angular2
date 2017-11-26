@@ -12,6 +12,9 @@ import { HomeComponent } from './home/home.component'
 import { RouterModule, Routes } from '@angular/router'
 
 import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome'
+import { HttpClientModule} from '@angular/common/http'
+import { Http } from '@angular/http'
+import { DataService } from './service/data.service'
 
 const appRoutes: Routes = [
   
@@ -42,10 +45,11 @@ const appRoutes: Routes = [
       { enableTracing: true } // <-- debugging purposes only
     ),
     BrowserModule,
-    Angular2FontawesomeModule
+    Angular2FontawesomeModule,
+    HttpClientModule
     
   ],
-  providers: [],
+  providers: [DataService, Http],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

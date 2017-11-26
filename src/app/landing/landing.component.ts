@@ -1,15 +1,21 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../service/data.service'
 
 @Component({
-  selector: 'landing',
+  selector: 'app-landing',
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.css']
 })
 export class LandingComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
+
+  }
+
+  register() {
+    this.dataService.register()
   }
 
 }
