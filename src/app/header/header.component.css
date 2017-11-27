@@ -1,14 +1,13 @@
 
 
 #head {
-    padding: 20px 100px 20px 80px;
+    padding: 30px 60px 30px 60px;
 }
 
 #head ul li a {
     font-weight: bold;
     font-family: arial;
     font-size: 14px;
-    margin-right: 20px;
 }
 
 #head a {
@@ -23,10 +22,17 @@
 
 @media screen and (max-width: 768px) {
     #head {
+        padding: 10px 3px 10px 3px;
+    }
+}   
+
+@media screen and (max-width: 576px) {
+    #head {
         padding: 10px 5px 10px 5px;
     }
     
     #head a {
     font-size: 20px;
    }
+
 }

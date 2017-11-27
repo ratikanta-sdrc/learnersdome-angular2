@@ -1,22 +1,15 @@
 
 #main {
-    padding: 0 50px 0 80px;
-    margin: 140px 0 50px 0;
-    background-color: rgb(41, 41, 41);
-}
-
-#course {
-    margin: 0 0 50px 0;
     padding: 0 50px 0 50px;
+    margin: 50px 0 50px 0;
 }
 
-.xyz {
-    background-color: lightgrey; 
-    display: inline;
+#coursel-ctrl {
+    padding: 20px 40px 20px 40px;
 }
 
-#sl {
-    padding: 20px 60px 20px 50px;
+#form-ctrl {
+    padding: 20px 40px 20px 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -24,10 +17,6 @@
    #main {
     padding: 0 20px 0 20px;
     margin: 100px 0 50px 0;
-   }
-
-   #sl {
-    padding: 20px 10px 20px 10px;
    }
 
 }
